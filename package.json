@@ -2,11 +2,7 @@
   "name": "vue-login-with-twitter",
   "description": "Login with Twitter for Vue JS. OAuth without the nonsense.",
   "version": "1.0.0",
-  "author": {
-    "name": "Almas",
-    "email": "almas@dusal.net",
-    "url": "https://dusal.net"
-  },
+  "author": "Almas <almas@dusal.net> (https://dusal.net)",
   "browser": {
     "unzip-response": false
   },
@@ -43,5 +39,8 @@
   },
   "scripts": {
     "test": "standard && tape test/*.js"
+  },
+  "directories": {
+    "test": "test"
   }
 }
