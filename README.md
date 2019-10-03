@@ -17,4 +17,4 @@ For more information, check out the implementation in [index.js](index.js).
 
 ## license
 
-MIT. Copyright (c) [Feross Aboukhadijeh](http://feross.org).
+MIT. Copyright (c) [Almas Dusal](https://dusal.net).
