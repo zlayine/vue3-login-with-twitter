@@ -3,9 +3,9 @@
 <!-- [travis-image]: https://img.shields.io/travis/feross/login-with-twitter/master.svg
 [travis-url]: https://travis-ci.org/feross/login-with-twitter -->
 
-[npm-image]: https://img.shields.io/npm/v/login-with-twitter.svg
+[npm-image]: https://img.shields.io/npm/v/vue-login-with-twitter.svg
 [npm-url]: https://www.npmjs.com/package/vue-login-with-twitter
-[downloads-image]: https://img.shields.io/npm/dm/login-with-twitter.svg
+[downloads-image]: https://img.shields.io/npm/dm/vue-login-with-twitter.svg
 [downloads-url]: https://www.npmjs.com/package/vue-login-with-twitter
 [standard-image]: https://img.shields.io/badge/code_style-standard-brightgreen.svg
 [standard-url]: https://standardjs.com
