@@ -1,7 +1,4 @@
-# vue-login-with-twitter [![travis][travis-image]][travis-url] [![npm][npm-image]][npm-url] [![downloads][downloads-image]][downloads-url] [![javascript style guide][standard-image]][standard-url]
-
-<!-- [travis-image]: https://img.shields.io/travis/feross/login-with-twitter/master.svg
-[travis-url]: https://travis-ci.org/feross/login-with-twitter -->
+# vue-login-with-twitter [![npm][npm-image]][npm-url] [![downloads][downloads-image]][downloads-url] [![javascript style guide][standard-image]][standard-url]
 
 [npm-image]: https://img.shields.io/npm/v/vue-login-with-twitter.svg
 [npm-url]: https://www.npmjs.com/package/vue-login-with-twitter
