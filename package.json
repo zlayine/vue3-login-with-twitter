@@ -1,7 +1,7 @@
 {
   "name": "vue-login-with-twitter",
   "description": "Login with Twitter for Vue JS. OAuth without the nonsense.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Almas <almas@dusal.net> (https://dusal.net)",
   "browser": {
     "unzip-response": false

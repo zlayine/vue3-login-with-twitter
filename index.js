@@ -16,7 +16,6 @@ function installTwitterAuthPlugin(Vue, options) {
     return;
   }
 
-  TwitterAuthConfig = Object.assign(TwitterAuthDefaultConfig, options);
   // if (options.scope) TwitterAuthConfig.scope = options.scope;
   // if (options.prompt) prompt = options.prompt;
   if (!options.consumerKey) {
@@ -32,10 +31,12 @@ function installTwitterAuthPlugin(Vue, options) {
     return;
   }
 
+  let TwitterAuthConfig = Object.assign(TwitterAuthDefaultConfig, options);
+
   const twitterAuth = new LoginWithTwitter({
-    consumerKey: options.consumerKey,
-    consumerSecret: options.consumerSecret,
-    callbackUrl: options.callbackUrl
+    consumerKey: TwitterAuthConfig.consumerKey,
+    consumerSecret: TwitterAuthConfig.consumerSecret,
+    callbackUrl: TwitterAuthConfig.callbackUrl
   });
 
   //Install Vue plugin
