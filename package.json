@@ -1,13 +1,13 @@
 {
-  "name": "vue-login-with-twitter",
-  "description": "Login with Twitter for Vue JS. OAuth without the nonsense.",
-  "version": "1.0.2",
-  "author": "Almas <almas@dusal.net> (https://dusal.net)",
+  "name": "vue3-login-with-twitter",
+  "description": "Login with Twitter for Vue 3. OAuth without the nonsense.",
+  "version": "1.0.0",
+  "author": "Zouheir <zouheirlen@gmail.com> (@zlayine)",
   "browser": {
     "unzip-response": false
   },
   "bugs": {
-    "url": "https://github.com/feross/login-with-twitter/issues"
+    "url": "https://github.com/zlayine/vue3-login-with-twitter/issues"
   },
   "dependencies": {
     "login-with-twitter": ">=1.2.2"
@@ -16,7 +16,7 @@
     "standard": "*",
     "tape": "^4.0.0"
   },
-  "homepage": "https://github.com/almas/vue-login-with-twitter",
+  "homepage": "https://github.com/zlayine/vue3-login-with-twitter",
   "keywords": [
     "login",
     "twitter",
@@ -35,7 +35,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git@github.com/vue-login-with-twitter.git"
+    "url": "git@github.com/vue3-login-with-twitter.git"
   },
   "scripts": {
     "test": "standard && tape test/*.js"

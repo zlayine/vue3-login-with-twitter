@@ -1,6 +1,6 @@
 const LoginWithTwitter = require("login-with-twitter");
 
-function installTwitterAuthPlugin(Vue, options) {
+function installTwitterAuthPlugin(app, options) {
   /* eslint-disable */
   //set config
   // let TwitterAuthConfig = null;
@@ -36,18 +36,11 @@ function installTwitterAuthPlugin(Vue, options) {
   const twitterAuth = new LoginWithTwitter({
     consumerKey: TwitterAuthConfig.consumerKey,
     consumerSecret: TwitterAuthConfig.consumerSecret,
-    callbackUrl: TwitterAuthConfig.callbackUrl
+    callbackUrl: TwitterAuthConfig.callbackUrl,
   });
 
   //Install Vue plugin
-  Vue.twitterAuth = twitterAuth;
-  Object.defineProperties(Vue.prototype, {
-    $twitterAuth: {
-      get: function() {
-        return Vue.twitterAuth;
-      }
-    }
-  });
+  app.provide("twitterAuth", twitterAuth);
 }
 
 export default installTwitterAuthPlugin;
